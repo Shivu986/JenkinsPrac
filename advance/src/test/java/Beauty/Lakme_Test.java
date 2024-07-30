@@ -11,7 +11,15 @@ public class Lakme_Test {
 //		 WebDriver driver= new ChromeDriver();
 //		 driver.manage().window().maximize();
 //		 driver.get("https://www.lakmeindia.com/");
+		String a=System.getProperty("url");
+		String b=System.getProperty("browser");
+		String c=System.getProperty("username");
+		
+		
 		 System.out.println("executing smoke");
+		 System.out.println(a);
+		 System.out.println(b);
+		 System.out.println(c);
 	//	 driver.quit();
 		 
 	}
