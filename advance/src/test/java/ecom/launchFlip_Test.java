@@ -7,11 +7,12 @@ import org.testng.annotations.Test;
 public class launchFlip_Test {
 	@Test
 	public void a() {
-		WebDriver driver= new ChromeDriver();
+		//WebDriver driver= new ChromeDriver();
 		
-		driver.get("https://www.flipkart.com/");
-		driver.manage().window().maximize();
-		driver.close();
+//		driver.get("https://www.flipkart.com/");
+//		driver.manage().window().maximize();
+//		driver.close();
+		System.out.println("Executing Regression2");
 	}
 	
 }

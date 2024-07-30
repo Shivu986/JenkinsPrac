@@ -8,11 +8,11 @@ public class Lakme_Test {
 	
 	@Test
 	public void lak() {
-		 WebDriver driver= new ChromeDriver();
-		 driver.manage().window().maximize();
-		 driver.get("https://www.lakmeindia.com/");
+//		 WebDriver driver= new ChromeDriver();
+//		 driver.manage().window().maximize();
+//		 driver.get("https://www.lakmeindia.com/");
 		 System.out.println("executing smoke");
-		 driver.quit();
+	//	 driver.quit();
 		 
 	}
 
