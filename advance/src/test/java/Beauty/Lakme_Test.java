@@ -15,7 +15,7 @@ public class Lakme_Test {
 		String b=System.getProperty("browser");
 		String c=System.getProperty("username");
 		
-		System.out.println("Strat executing smoke1");
+		
 		 System.out.println("executing smoke");
 		 System.out.println(a);
 		 System.out.println(b);
